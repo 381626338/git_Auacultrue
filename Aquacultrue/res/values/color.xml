@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="app_background">#ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="discount_menu_color">#e3fcf9</color>
+    <color name="titlebar_color">#37b7d0</color>
+    <color name="black">#000000</color>
+    <color name="line">#cccccc</color>
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+     <color name="gray_white">#EAEAEA</color>
+    <color name="text_color1">#ff640f</color>
+    <color name="text_color2">#0786a6</color>
+    <color name="text_color3">#1eb666</color>
+    <color name="text_color4">#9b7c00</color>
+    <color name="text_color5">#ba70c7</color>
+    <color name="text_color6">#0786a6</color>
+    <color name="text_color7">#db546a</color>
+    <color name="text_color8">#1eb666</color>
+    <color name="text_color9">#5e5e5e</color>
+    <color name="holo_blue">#ff33e5b5</color>    
+    <color name="orange">#fa934e</color>
+    <color name="red">#ed291a</color>
+    <color name="story_photos_list_item_color">#f6f6f6</color>
+    <color name="blue">#66b2ab</color>
+    <color name="incity_text_blue">#73c6be</color>
+    <color name="incity_text_gray">#d0d0d0</color>
+    <color name="incity_text_red">#ff4d4d</color>
+    
+    <color name="home_item1">#41cebe</color>
+    <color name="home_item2">#f9d461</color>
+    <color name="home_item3">#5ab1cf</color>
+    <color name="home_item4">#f794a8</color>
+    <color name="page_bg">#e6e5e1</color>
+    <color name="home_bg">#65686f</color>
+    
+</resources>

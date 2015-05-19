@@ -1,0 +1,45 @@
+<com.aquacultrue.ui.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:myview="http://schemas.android.com/apk/res/com.aquacultrue.app"
+    android:id="@+id/id_menu"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/home_bg"
+    android:scrollbars="none"
+    myview:rightPadding="100dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/home_slidingmenu" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:background="@color/page_bg" >
+            
+            <com.aquacultrue.ui.TitleBar
+                android:id="@+id/titlebar"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <ExpandableListView
+                android:id="@+id/home_expandable_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:groupIndicator="@null"
+                android:scrollbarAlwaysDrawHorizontalTrack="true" >
+            </ExpandableListView>
+            
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@color/page_bg" >
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</com.aquacultrue.ui.SlidingMenu>
